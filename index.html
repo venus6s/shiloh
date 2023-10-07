@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA_Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO -->
+    <title>SHILOH&#39;s Portfolio</title>
+    <meta name="description" content="Portfolio for Designer Shiloh"/>
+    <meta name="author" content="SHILOH"/>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <!-- OG Open Graph Data -->
+    <meta property="og:title" content="디자인 실로" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="배포후 생성된 URL" />
+    <meta property="og:image" content="배포후 생성된 img" />
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https: //fonts.googleapis.com/css2?family= Open+Sans:wght@400;600 & display =swap" >
+    <link rel="stylesheet">
+          <!-- Font Awesome -->
+          <script src="https://kit.fontawesome.com/0c5975ffc8.js" crossorigin="anonymous"></script>
+    <!-- CSS -->
+     <link rel="stylesheet" href="css/style.css">
+    <!--Javascript  -->
+    <script type="module" src="src/main.js" defer></script>
+    <script type="module" src="src/projects.js" defer></script>
+    <script type="module" src="src/active_menu.js" defer></script>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header__logo">
+            <img class="header__logo__img" src="images/favicon.ico" alt="logo">
+            <h1 class="header__logo__title"><a href="#">SHILOH</a></h1>
+        </div>
+        <nav class="header__nav">
+            <ul class="header__menu">
+                <li><a class="header__menu__item" href="#home">Home</a></li>
+                <li><a class="header__menu__item" href="#about">About</a></li>
+                <li><a class="header__menu__item" href="#skills">Skills</a></li>
+                <li><a class="header__menu__item" href="#work">My Work</a></li>
+                <li><a class="header__menu__item" href="#video">Video</a></li>
+                <li><a class="header__menu__item" href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <button class="header__toggle" aria-label="navigation menu toggle">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+    </header>
+    <!-- Main -->
+    <main>
+        <!-- Home -->
+        <section id="home">
+            <div class="home__container">
+                <img class="home__avatar" src="images/profile3.png" alt="Erin's prople">
+                <h2 class="home__title">Hello<br/> I&#39;m <strong class="home__title__strong">Designer</strong> Shiloh</h2>
+                <p class="home__description"> I'm a designer with creativity and problem-solving skills <br>
+                       Effectively express the value of the brand.</p>
+                <a class="home__contact" href="#contact">Contact Me</a>
+            </div>
+            
+        </section>
+        <!-- About -->
+        <section id="about" class="section max-container">
+            <h2 class="title">About me</h2>
+            <P class="description">I majored in art education, taught children
+               and worked on oil paintings for four years
+               Currently, I am working on the design with a computer
+               logo, business card, illustration, and homepage design
+               I'll make you a beautiful design.</P>
+          
+                <video class="about__video" src="images/video1.mp4" 
+                loop="" autoplay="" muted="">
+                </video>
+          
+          
+            <ul class="majors">
+                <li class="major">
+                    <i class="fa-brands fa-html5 major__icon" ></i>
+                    <p class="major__title">Front-end</p>
+                    <p>HTML, CSS, JavaScript</p>
+                </li>
+                <li class="major">
+                    <i class="fa-solid fa-pen-nib major__icon" ></i>
+                    <p class="major__title">Image design</p>
+                    <P>logo, business card, illustration</P>
+                </li>
+                <li class="major">
+                    <i class="fa-solid fa-video major__icon" ></i>
+                    <p class="major__title">Video editing</p>
+                    <P>Simple and natural emotional video
+                      
+
+                    </P>
+                </li>
+            </ul>
+      
+        </section>
+        <!-- skill -->
+        <section id="skills" class="section">
+            <div class="max-container">
+                <h2 class="title">My Skill</h2>
+                <p class="description">skill & Attributes</p>
+                <p></p>
+                 <div class="skills">
+                    <section class="skills__coding">
+                        <h3 class="skills__title">Cording skills</h3>
+                        <ul>
+                            <li class="bar">
+                                <div class="bar__metadata"><span>HTML 5 </span><span>50%</span></div>
+                                <div class="bar__bg"> <div class="bar__value"  style="width: 50%"></div></div>
+                            </li>
+                            <li class="bar"> 
+                                <div class="bar__metadata"><span>CSS</span><span>50%</span></div>
+                                <div class="bar__bg"> <div class="bar__value"  style="width: 50%"></div></div>
+                            </li>
+                            <li class="bar"> 
+                                <div class="bar__metadata"><span>Javascript </span><span>5%</span></div>
+                                <div class="bar__bg"> <div class="bar__value"  style="width: 5%"></div></div>
+                            </li>
+                            <li class="bar"> 
+                                <div class="bar__metadata"><span>TypeScript </span><span>0%</span></div>
+                                <div class="bar__bg"> <div class="bar__value"  style="width: 0%"></div></div>
+                            </li>
+    
+                        </ul>
+            
+                    </section>
+                    <section class="skills__tools">
+                        <h3 class="skills__title">Tools</h3>
+                        <ul>
+                           <li class="bar">
+                                <div class="bar__metadata"><span>adobe Photoshop</span><span>95%</span></div>
+                                <div class="bar__bg"> <div class="bar__value"  style="width: 95%"></div></div>
+                            </li>
+                            <li class="bar"> 
+                                <div class="bar__metadata"><span>adobe Illustrator</span><span>90%</span></div>
+                                <div class="bar__bg"> <div class="bar__value"  style="width: 90%"></div></div>
+                            </li>
+                            <li class="bar"> 
+                                <div class="bar__metadata"><span>adobe Premiere Pro</span><span>30%</span></div>
+                                <div class="bar__bg"> <div class="bar__value"  style="width: 30%"></div></div>
+                            </li>
+                            <li class="bar"> 
+                                <div class="bar__metadata"><span>adobe After Effects</span><span>20%</span></div>
+                                <div class="bar__bg"> <div class="bar__value"  style="width: 20%"></div></div>
+                            </li>
+                                                  
+                        </ul>
+                    </section>
+                    <section class="skills__ect">
+                        <h3 class="skills__title">ect</h3>
+                        <ul>
+                           <li class="bar">
+                                <div class="bar__metadata"><span>Camera</span><span>10%</span></div>
+                                <div class="bar__bg"> <div class="bar__value"  style="width: 10%"></div></div>
+                            </li>
+                            <li class="bar"> 
+                                <div class="bar__metadata"><span>Digital drawing</span><span>50%</span></div>
+                                <div class="bar__bg"> <div class="bar__value"  style="width: 50%"></div></div>
+                            </li>
+                            <li class="bar"> 
+                                <div class="bar__metadata"><span>Blog / sns</span><span>50%</span></div>
+                                <div class="bar__bg"> <div class="bar__value"  style="width: 50%"></div></div>
+                            </li>
+                          
+                         
+                          
+                        </ul>
+                    </section>
+                    <section class="skills__ect">
+                        <h3 class="skills__title">use</h3>
+                        <ul>
+                           <li class="bar">
+                                <div class="bar__metadata"><span>Visual Studio Code </span><span>95%</span></div>
+                                <div class="bar__bg"> <div class="bar__value"  style="width: 95%"></div></div>
+                            </li>
+                            <li class="bar"> 
+                                <div class="bar__metadata"><span>cafe24</span><span>10%</span></div>
+                                <div class="bar__bg"> <div class="bar__value"  style="width: 10%"></div></div>
+                            </li>
+                            <li class="bar"> 
+                                <div class="bar__metadata"><span>Git</span><span>10%</span></div>
+                                <div class="bar__bg"> <div class="bar__value"  style="width: 10%"></div></div>
+                            </li>
+                       
+                        </ul>
+                    </section>
+            </section>
+            <!-- Work -->
+            <section id="work"  class="section">
+                <div class="max-container">
+                    <h2 class="title">My Work</h2>
+                <p class="description">projecs</p>
+                <ul class="categories">
+                    <li>
+                        <button class="category category--selected" data-category="all">ALL<span class="category__count">8</span></button>
+                    </li>
+                    <li>
+                        <button class="category" data-category="wab site">Web site<span class="category__count">4</span></button>
+                    </li>
+                    <li>
+                        <button class="category" data-category="illustration">Illustration<span class="category__count">4</span></button>
+                    </li>
+                    <li>
+                        <button class="category" data-category="motion grapic">Motion grapic<span class="category__count">4</span></button>
+                    </li>
+                    <li>
+                        <button class="category" data-category="Video Editing">Video Editing<span class="category__count">4</span></button>
+                    </li>
+                </ul>
+    
+                <ul class="projects">
+                  <li class="project" data-type="wab site">
+                    <a href="#" target="_blank">
+                    <img src="images/project1.webp" alt="project1" class="project__img"/>
+                    <div class="project__metadata">
+                        <h1 class="project__metadata__title">Project #1</h1> 
+                        <p>Clone Coding with HTML, CSS</p>
+                        <br>
+                        <p class="project__view">VIEW</p>
+                    </div>
+                  </a>
+                </li>
+                  <li class="project" data-type="wab site"><a href="#">
+                    <img src="images/project2.webp" alt="project2" class="project__img"/>
+                     <div class="project__metadata">
+                        <h3 class="project__metadata__title">Project #2</h3>
+                        <br>
+                        <p>Clone Coding with HTML, CSS</p>
+                        <br>
+                        <p class="project__view">VIEW</p>
+                    </div>
+                    </a>
+                   </li>
+                  <li class="project" data-type="wab site">
+                    <a href="#" target="_blank">
+                        <img src="images/project3.webp" alt="project3" class="project__img"/>
+                    <div class="project__metadata">
+                        <h3 class="project__metadata__title">Project #3</h3>
+                        <p>Clone Coding with HTML, CSS</p>
+                        <br>
+                        <p class="project__view">VIEW</p>
+                    </div></a></li>
+
+                  <li class="project" data-type="wab site">
+                    <a href="#" target="_blank">
+                        <img src="images/project4.webp" alt="project4" class="project__img"/>
+                    <div class="project__metadata">
+                        <h3 class="project__metadata__title">Project #4</h3>
+                        <p>Clone Coding with HTML, CSS</p>
+                        <br>
+                        <p class="project__view">VIEW</p>
+                    </div></a></li>
+
+                  <li class="project">
+                    <a href="#" target="_blank"data-type="illustration">
+                        <img src="images/project5.webp" alt="project5" class="project__img"/>
+                    <div class="project__metadata">
+                        <h3 class="project__metadata__title">Project #5</h3>
+                        <p>Clone Coding with HTML, CSS</p>
+                        <br>
+                        <p class="project__view">VIEW</p>
+                    </div></a></li>
+
+                  <li class="project" data-type="illustration">
+                    <a href="#" target="_blank">
+                        <img src="images/project6.webp" alt="project6" class="project__img"/>
+                    <div class="project__metadata">
+                        <h3 class="project__metadata__title">Project #6</h3>
+                        <p>Clone Coding with HTML, CSS</p>
+                        <br>
+                        <p class="project__view">VIEW</p>
+                    </div></a></li>
+
+                  <li class="project" data-type="illustration">
+                    <a href="#" target="_blank">
+                        <img src="images/project7.webp" alt="project7" class="project__img"/>
+                    <div class="project__metadata">
+                        <h3 class="project__metadata__title">Project #7</h3>
+                        <p>Clone Coding with HTML, CSS</p>
+                        <br>
+                        <p class="project__view">VIEW</p>
+                    </div></a></li>
+
+                  <li class="project" data-type="illustration">
+                    <a href="#" target="_blank">
+                        <img src="images/project8.webp" alt="project8" class="project__img"/>
+                    <div class="project__metadata">
+                        <h3 class="project__metadata__title">Project #8</h3>
+                        <p>Clone Coding with HTML, CSS</p>
+                        <br>
+                        <p class="project__view">VIEW</p>
+                    </div></a></li>
+
+                    <li class="project" data-type="Video Editing">
+                        <a href="#" target="_blank" data-type="motion grapic">
+                        <img src="images/project9.jpg" alt="project9" class="project__img"/>
+                        <div class="project__metadata">
+                            <h3 class="project__metadata__title">Project #9</h3>
+                            <p>Clone Coding with HTML, CSS</p>
+                            <br>
+                            <p class="project__view">VIEW</p>
+                        </div></a> </li>
+                        
+                      <li class="project" data-type="Video Editing">
+                        <a href="#" target="_blank">
+                        <img src="images/project10.jpg" alt="project10" class="project__img"/>
+                         <div class="project__metadata">
+                            <h3 class="project__metadata__title">Project #10</h3>
+                            <p>Clone Coding with HTML, CSS</p>
+                            <br>
+                            <p class="project__view">VIEW</p>
+                        </div></a></li>
+
+                      <li class="project" data-type="motion grapic">
+                        <a href="#" target="_blank">
+                            <img src="images/project11.jpg" alt="project11" class="project__img"/>
+                        <div class="project__metadata">
+                            <h3 class="project__metadata__title">Project #11</h3>
+                            <p>Clone Coding with HTML, CSS</p>
+                            <br>
+                            <p class="project__view">VIEW</p>
+                        </div></a></li>
+    
+                      <li class="project" data-type="motion grapic">
+                        <a href="#" target="_blank">
+                            <img src="images/project12.jpg" alt="project12" class="project__img"/>
+                        <div class="project__metadata">
+                            <h3 class="project__metadata__title">Project #12</h3>
+                            <p>Clone Coding with HTML, CSS</p>
+                            <br>
+                            <p class="project__view">VIEW</p>
+                        </div></a></li>
+    
+                      <li class="project" data-type="motion grapic">
+                        <a href="#" target="_blank">
+                            <img src="images/project13.jpg" alt="project13" class="project__img"/>
+                        <div class="project__metadata">
+                            <h3 class="project__metadata__title">Project #13</h3>
+                            <p>Clone Coding with HTML, CSS</p>
+                            <br>
+                            <p class="project__view">VIEW</p>
+                        </div></a></li>
+    
+                      <li class="project"  data-type="Video Editing">
+                        <a href="#" target="_blank">
+                            <img src="images/project14.jpg" alt="project14" class="project__img"/>
+                        <div class="project__metadata">
+                            <h3 class="project__metadata__title">Project #14</h3>
+                            <p>Clone Coding with HTML, CSS</p>
+                            <br>
+                            <p class="project__view">VIEW</p>
+                        </div></a></li>
+    
+                      <li class="project"  data-type="Video Editing">
+                        <a href="#" target="_blank">
+                            <img src="images/project15.jpg" alt="project15" class="project__img"/>
+                        <div class="project__metadata">
+                            <h3 class="project__metadata__title">Project #15</h3>
+                            <p>Clone Coding with HTML, CSS</p>
+                            
+                        </div></a></li>
+    
+                      <li class="project" data-type="motion grapic">
+                        <a href="#" target="_blank">
+                            <img src="images/project16.jpg" alt="project16" class="project__img"/>
+                        <div class="project__metadata">
+                            <h3 class="project__metadata__title">Project #16</h3>
+                            <p>Clone Coding with HTML, CSS</p>
+                        </div></a></li>
+                    
+                </ul>
+              </div>
+            </div>
+                
+        </section>
+        <!-- video -->
+        <section id="video" class="section max-container">
+            <h2 class="title">video</h2>
+            <p class="description">story</p>
+            <ul class="videos">
+                <li class="video__youtube">
+                    <iframe width="550" height="370" src="https://www.youtube.com/embed/46R8n81YC5E?si=ON9ZtC_dJDpWOMvk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    
+                </li>
+                <li class="video__youtube">
+                    <iframe width="550" height="370" src="https://www.youtube.com/embed/fkc6_pSssQ8?si=6l7d5pGH2ID4XAgG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+                </li>
+                <li class="video__youtube">
+                    <iframe width="550" height="370" src="https://www.youtube.com/embed/Rk6JbFRXYoY?si=FkoVJH5Qhv-zBLbp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </li>
+                <li class="video__youtube">
+                    <iframe width="550" height="370" src="https://www.youtube.com/embed/5mfQVql4FWA?si=EU1QzshHEZL8Y5dm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </li>
+            </li>
+            <li class="video__youtube">
+                <iframe width="550" height="370" src="https://www.youtube.com/embed/Rk6JbFRXYoY?si=FkoVJH5Qhv-zBLbp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </li>
+            <li class="video__youtube">
+                <iframe width="550" height="370" src="https://www.youtube.com/embed/5mfQVql4FWA?si=EU1QzshHEZL8Y5dm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </li>
+                   </div>
+                  
+                </li>
+            </ul>
+        </section>
+    <!-- Arrow up -->
+        <aside>
+            <a class="arrow-up" href="#home" title="back to top">
+                <i class="fa-solid fa-arrow-up"></i>
+            </a>
+        </aside>
+    </main>
+    <!-- Footer -->
+    <footer id="contact" class="section">
+        <div class="max-container">
+            <h2 class="title">Let&#39;s talk</h2>
+        <p class="description">venus6s@naver.com</p>
+        <ul class="contact__links">
+            <li>
+                <a class="contact__link" href="https://venus6s.github.io/portfolio/" target="_blank" title="my github portfolio">
+                <i class="fa-brands fa-github"></i>
+            </a>
+        </li>
+        <li>
+                <a class="contact__link" href="https://venus6s.github.io/portfolio/" target="_blank" title="my github portfolio">
+                    <i class="fa-brands fa-bitbucket"></i>
+            </a>
+        </li>
+        </ul>
+        <br>
+        <br>
+        <br>
+        <p>© Designer Erin - All rights reserved </p>
+        </div>
+        
+
+    </footer>
+</body>
+</html>
