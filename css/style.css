@@ -620,15 +620,15 @@ button:focus {
         max-width: 25rem;
     }
     .skills{
+        flex-direction: column;
+        align-items: center;
         grid-template-columns: 1fr;
     }
-    .skills__tools {
-        height: 25rem;
-        margin: 0,0,0,0;
-        align-items: center;
-        justify-items: center;
 
-    }
+       
+       
+        
+
     
     }
     .categories{
