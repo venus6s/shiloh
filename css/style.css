@@ -251,7 +251,7 @@ button:focus {
 }
 .skills {
     display: grid;
-    grid-template-columns: 5fr 5fr;
+    grid-template-columns: 10fr 10fr;
     margin: 3rem;
     border-radius: 10px;
     overflow: hidden;
@@ -270,7 +270,7 @@ button:focus {
     height: 25rem;
     border-radius: 10px;
     grid-row: span 10;
-    margin: 15px 15px;
+    margin: 10px 3px;
     padding: 10erm;
     background-color:var(--color-primary);
     box-shadow: 4.0px 8.0px 8.0px rgba(0,0,0,0.38);
@@ -283,7 +283,7 @@ button:focus {
     height: 25rem;
     border-radius: 10px;
     grid-row: span 10;
-    margin: 15px 15px;
+    margin: 10px 3px;
     padding: 10erm;
     background-color:rgb(14, 14, 15);
     box-shadow: 4.0px 8.0px 8.0px rgba(0,0,0,0.38);
@@ -297,7 +297,7 @@ button:focus {
     height: 25rem;
     border-radius: 10px;
     grid-row: span 10;
-    margin: 15px 15px;
+    margin: 10px 3px;
     padding: 10erm;
     background-color:var(--color-primary);
     box-shadow: 4.0px 8.0px 8.0px rgba(0,0,0,0.38);
@@ -310,7 +310,7 @@ button:focus {
     height: 25rem;
     border-radius: 10px;
     grid-row: span 10;
-    margin: 15px 15px;
+    margin: 10px 3px;
     padding: 10erm;
     background-color:rgb(14, 14, 15);
     box-shadow: 4.0px 8.0px 8.0px rgba(0,0,0,0.38);
@@ -324,7 +324,7 @@ button:focus {
     height: 25rem;
     border-radius: 10px;
     grid-row: span 10;
-    margin: 15px 15px;
+    margin: 10px 3px;
     padding: 10erm;
     background-color:var(--color-primary);
     box-shadow: 4.0px 8.0px 8.0px rgba(0,0,0,0.38);
@@ -337,7 +337,7 @@ button:focus {
     height: 25rem;
     border-radius: 10px;
     grid-row: span 10;
-    margin: 15px 15px;
+    margin: 10px 3px;
     padding: 10erm;
     background-color:rgb(14, 14, 15);
     box-shadow: 4.0px 8.0px 8.0px rgba(0,0,0,0.38);
