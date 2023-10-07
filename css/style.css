@@ -201,8 +201,8 @@ button:focus {
 /* about */
 
 .about__video {
+    width: 30rem;
     align-items: center;
-    width:40rem;
     border-radius: 10px;
     margin-top: 3rem;
     box-shadow: 4.0px 8.0px 8.0px rgba(0,0,0,0.38);
@@ -379,7 +379,7 @@ button:focus {
 .categories {
     display: flex;
     justify-content: center;
-    margin: 5rem;
+    margin: 3rem;
     gap: 1rem;
 
 }
@@ -424,21 +424,22 @@ button:focus {
 
 .projects {
     display: grid;
-    margin: 5rem;
-    grid-template-columns: repeat(2, 10fr);
+    margin: 3rem;
+    grid-template-columns: repeat(2, 1fr);
     gap:1rem;
     transition: all 250ms ease-out;
 }
 
 .projects.anim-out {
     opacity: 0;
-    transform: scale(0.96) translateY(20px);
+    transform: scale(0.96) translateY(15px);
 }
 
 .project{
     position: relative;
     border-radius: 10px;
-    height: 20rem;
+   
+    height: 10rem;
     overflow: hidden;
 }
 
@@ -483,7 +484,7 @@ button:focus {
 
 .project__view {
     background-color:var(--color-accent);
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     padding: 0.5rem;
     border-radius: 10px;
 }
@@ -603,7 +604,7 @@ button:focus {
     }
 
     .about__video {
-        width: 30rem;
+        width: 20rem;
         border-radius: 10px;
         margin-top: 2rem;
         box-shadow: 4.0px 8.0px 8.0px rgba(0,0,0,0.38);
