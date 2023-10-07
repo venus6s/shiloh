@@ -216,7 +216,7 @@ button:focus {
 }
 .major{
     background-color: var(--color-primary-variant);
-    padding: 3rem 2rem;
+    padding: 2rem 1rem;
     width: 20rem;
     color: var(--color-text);
     border-radius: 10px;
@@ -269,7 +269,7 @@ button:focus {
 .skills__coding {
     height: 25rem;
     border-radius: 10px;
-    grid-row: span 10;
+    grid-row: span 5;
     margin: 10px 5px;
     padding: 10erm;
     background-color:var(--color-primary);
@@ -282,7 +282,7 @@ button:focus {
 .skills__coding:hover {
     height: 25rem;
     border-radius: 10px;
-    grid-row: span 10;
+    grid-row: span 5;
     margin: 10px 5px;
     padding: 10erm;
     background-color:rgb(14, 14, 15);
@@ -296,7 +296,7 @@ button:focus {
 .skills__tools {
     height: 25rem;
     border-radius: 10px;
-    grid-row: span 10;
+    grid-row: span 5;
     margin: 10px 5px;
     padding: 10erm;
     background-color:var(--color-primary);
@@ -309,7 +309,7 @@ button:focus {
 .skills__tools:hover {
     height: 25rem;
     border-radius: 10px;
-    grid-row: span 10;
+    grid-row: span 5;
     margin: 10px 5px;
     padding: 10erm;
     background-color:rgb(14, 14, 15);
@@ -323,7 +323,7 @@ button:focus {
 .skills__ect {
     height: 25rem;
     border-radius: 10px;
-    grid-row: span 10;
+    grid-row: span 5;
     margin: 10px 5px;
     padding: 10erm;
     background-color:var(--color-primary);
@@ -336,7 +336,7 @@ button:focus {
 .skills__ect:hover{
     height: 25rem;
     border-radius: 10px;
-    grid-row: span 10;
+    grid-row: span 5;
     margin: 10px 5px;
     padding: 10erm;
     background-color:rgb(14, 14, 15);
@@ -424,8 +424,8 @@ button:focus {
 
 .projects {
     display: grid;
+    grid-template-columns: repeat(4, 1fr);
     margin: 3rem;
-    grid-template-columns: repeat(2, 1fr);
     gap:1rem;
     transition: all 250ms ease-out;
 }
@@ -624,13 +624,7 @@ button:focus {
         align-items: center;
         grid-template-columns: 1fr;
     }
-
-       
-       
-        
-
     
-    }
     .categories{
         flex-direction: column;
         justify-content: center;
@@ -660,7 +654,7 @@ button:focus {
 
 
     .arrow-up{
-        font-size: 2rem;
+        font-size: 2.5rem;
         width: 3rem;
         height: 3rem;
         bottom: 1.5rem;
