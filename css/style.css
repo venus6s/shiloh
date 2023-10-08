@@ -164,7 +164,7 @@ background: linear-gradient(180deg, rgba(34,34,34,1) 0%, rgba(0,0,0,1) 50%, rgba
     left: 0;
     width: 100%;
     overflow: hidden;
-    line-height: 1px;
+    line-height: 0px;
     transform: rotate(180deg);
 }
 
@@ -177,6 +177,7 @@ background: linear-gradient(180deg, rgba(34,34,34,1) 0%, rgba(0,0,0,1) 50%, rgba
 
 .home__divider .shape-fill {
     fill: #FFFFFF;
+    border:1px silid#ffffff ;
 }
 
 
