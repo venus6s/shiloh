@@ -160,7 +160,25 @@ button:focus {
     padding-bottom: 3rem;
     text-align: center;
 }
+.custom-shape-divider-bottom-1696783782 {
+    position: absolute;
+    bottom: 10;
+    left: 0;
+    width: 100%;
+   
+    line-height: 0;
+}
 
+.custom-shape-divider-bottom-1696783782 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 50px;
+}
+
+.custom-shape-divider-bottom-1696783782 .shape-fill {
+    fill: #FFFFFF;
+}
 .home__avatar{
     width: 300px;
     height: 300px;
@@ -516,14 +534,38 @@ button:focus {
 }
 /* video */
 
+#video{
+    position: relative;
+}
+.custom-shape-divider-bottom-1696786408 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
 
+.custom-shape-divider-bottom-1696786408 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 50px;
+}
+
+.custom-shape-divider-bottom-1696786408 .shape-fill {
+    fill: #000000;
+}
 .videos {
+    
     display: grid;
     grid-template-columns: repeat(2, 2fr);
     margin: 3rem;
     gap:0.5rem;
     transition: all 250ms ease-out;
 }
+
+
 
 .video__youtube {
     width: 400px;
@@ -554,6 +596,7 @@ button:focus {
     color:var(--color-text);
    
 }
+
 
 .contact__links{
     display: flex;
