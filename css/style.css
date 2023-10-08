@@ -297,7 +297,8 @@ background: linear-gradient(180deg, rgba(34,34,34,1) 0%, rgba(0,0,0,1) 50%, rgba
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
-    height: 89px;
+    height: 90px;
+    background-color: #ffffff;
 }
 
 .skills__divider .shape-fill {
@@ -551,6 +552,7 @@ background: linear-gradient(180deg, rgba(34,34,34,1) 0%, rgba(0,0,0,1) 50%, rgba
     display: block;
     width: calc(100% + 1.3px);
     height: 90px;
+    background-color: #ffffff;
 }
 
 .divider__work .shape-fill {
