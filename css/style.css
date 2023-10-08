@@ -381,8 +381,7 @@ button:focus {
 .categories {
     display: flex;
     justify-content: center;
-    margin-top: 3rem;
-    margin: 0;
+    margin: 3rem;
     gap: 1rem;
 
 }
@@ -427,9 +426,10 @@ button:focus {
 
 .projects {
     display: grid;
-    grid-template-columns: repeat(2, 2fr);
+    grid-template-columns: repeat(2, 1fr);
+    margin: 3rem;
     margin-bottom: 10rem;
-   
+    gap:1rem;
     transition: all 250ms ease-out;
 }
 
@@ -439,11 +439,11 @@ button:focus {
 }
 
 .project{
-    margin: 0;
     position: relative;
     border-radius: 10px;
-    
-     overflow: hidden;
+   
+    height: 15rem;
+    overflow: hidden;
 }
 
 
@@ -452,7 +452,6 @@ button:focus {
 }
 
 .project__metadata {
-    
     position: absolute;
     top: 0;
     left: 0;
@@ -493,6 +492,26 @@ button:focus {
     border-radius: 10px;
 }
 
+.divider__work {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.divider__work svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 90px;
+}
+
+.divider__work .shape-fill {
+    fill: #FFFFFF;
+}
 /* video */
 
 
@@ -638,6 +657,8 @@ button:focus {
     }
     
     .categories{
+        margin: 0rem;
+        margin-bottom: 3rem;
         flex-direction: column;
         justify-content: center;
     }
@@ -648,13 +669,13 @@ button:focus {
     .projects {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        margin: 3rem;
+        margin: 0rem;
         margin-bottom: 2rem;
         gap:1rem;
         transition: all 250ms ease-out;
     }
     .project{
-        margin: 0;
+        
         height: 150px;
         position: relative;
         border-radius: 10px;
@@ -679,8 +700,7 @@ button:focus {
         width: 300px;
         height: 200px;
         border-radius:10px
-        
-        
+ 
         
     }
 
