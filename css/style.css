@@ -263,18 +263,16 @@ button:focus {
 
 /* skills */
 #skills {
-    position: relative;
-    
     background-color: var(--color-primary-variant) ;
     color: var(--color-text);
-}
+    }
 
 .skills {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin: 3rem;
+
     border-radius: 10px;
-    overflow: hidden;
+   
 
 }
 
@@ -512,50 +510,11 @@ button:focus {
     border-radius: 10px;
 }
 
-.divider__work {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
-}
 
-.divider__work svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 90px;
-}
-
-.divider__work .shape-fill {
-    fill: #FFFFFF;
-}
 /* video */
 
-#video{
-    position: relative;
-}
-.custom-shape-divider-bottom-1696786408 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-}
 
-.custom-shape-divider-bottom-1696786408 svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 50px;
-}
 
-.custom-shape-divider-bottom-1696786408 .shape-fill {
-    fill: #000000;
-}
 .videos {
     
     display: grid;
@@ -691,17 +650,17 @@ button:focus {
         
     }
     .major{
-        width: 20rem;
+        width: 17rem;
         max-width: 25rem;
     }
     .skills{
-        margin: 1rem;
+        margin: 0.5rem;
         align-items: center;
         grid-template-columns: 1fr;
     }
     
     .categories{
-        margin: 0rem;
+        margin: 0.5rem;
         margin-bottom: 3rem;
         flex-direction: column;
         justify-content: center;
@@ -713,7 +672,7 @@ button:focus {
     .projects {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        margin: 0rem;
+        margin: 0.5rem;
         margin-top: 1rem;
         margin-bottom: 2rem;
         gap:1rem;
@@ -737,13 +696,13 @@ button:focus {
         grid-template-columns: repeat(1, 1fr);
         margin: 0;
        
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
       
     }
 
     .video__youtube {
         position: relative;    
-        width: 350px;
+        width: 360px;
         height: 240px;
         border-radius:10px
  
