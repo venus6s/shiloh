@@ -70,7 +70,7 @@ button:focus {
 
 .title{
     font-size: 2.5rem;
-    margin: 1.5rem 0;
+    margin: 2rem 1rem;
 }
 
 .description{
@@ -150,36 +150,14 @@ button:focus {
 #home{
     position: relative;
     background-color: var(--color-primary);
-background: rgb(34,34,34);
-background: linear-gradient(180deg, rgba(34,34,34,1) 0%, rgba(0,0,0,1) 50%, rgba(34,34,34,1) 100%);
+    background: rgb(34,34,34);
+    background: linear-gradient(180deg, rgba(34,34,34,1) 0%, rgba(0,0,0,1) 50%, rgba(34,34,34,1) 100%);
     color: var(--color-text);
     padding: 5rem 1rem;
     padding-top: 10rem ;
-    padding-bottom: 5rem;
+    padding-bottom: 3rem;
     text-align: center;
 }
-.home__divider {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0px;
-    transform: rotate(180deg);
-}
-
-.home__divider svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 89px;
-}
-
-.home__divider .shape-fill {
-    fill: #FFFFFF;
-    border:1px silid#ffffff ;
-}
-
 
 .home__avatar{
     width: 300px;
@@ -225,20 +203,15 @@ background: linear-gradient(180deg, rgba(34,34,34,1) 0%, rgba(0,0,0,1) 50%, rgba
 
 /* about */
 
-.about__video {
-    width: 30rem;
-    align-items: center;
-    border-radius: 10px;
-    margin-top: 3rem;
-    box-shadow: 4.0px 8.0px 8.0px rgba(0,0,0,0.38);
-}
 
 .majors{
     display: flex;
     justify-content:space-between;
     gap: 1rem;
-    margin: 3rem ;
+    margin: 3rem 3rem;
 }
+
+
 .major{
     background-color: var(--color-primary-variant);
     padding: 2rem 1rem;
@@ -278,32 +251,13 @@ background: linear-gradient(180deg, rgba(34,34,34,1) 0%, rgba(0,0,0,1) 50%, rgba
 
 .skills {
     display: grid;
-    grid-template-columns: 10fr 10fr;
+    grid-template-columns: 1fr 1fr;
     margin: 3rem;
     border-radius: 10px;
     overflow: hidden;
 
 }
 
-.skills__divider {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-}
-
-.skills__divider svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 89px;
-}
-
-.skills__divider .shape-fill {
-    fill: #FFFFFF;
-}
 
 .skills__title {
     color: var(--color-accent);
@@ -427,7 +381,8 @@ background: linear-gradient(180deg, rgba(34,34,34,1) 0%, rgba(0,0,0,1) 50%, rgba
 .categories {
     display: flex;
     justify-content: center;
-    margin: 3rem;
+    margin-top: 3rem;
+    margin: 0;
     gap: 1rem;
 
 }
@@ -472,10 +427,9 @@ background: linear-gradient(180deg, rgba(34,34,34,1) 0%, rgba(0,0,0,1) 50%, rgba
 
 .projects {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    margin: 3rem;
+    grid-template-columns: repeat(2, 2fr);
     margin-bottom: 10rem;
-    gap:1rem;
+   
     transition: all 250ms ease-out;
 }
 
@@ -485,11 +439,11 @@ background: linear-gradient(180deg, rgba(34,34,34,1) 0%, rgba(0,0,0,1) 50%, rgba
 }
 
 .project{
+    margin: 0;
     position: relative;
     border-radius: 10px;
-   
-    height: 15rem;
-    overflow: hidden;
+    
+     overflow: hidden;
 }
 
 
@@ -498,6 +452,7 @@ background: linear-gradient(180deg, rgba(34,34,34,1) 0%, rgba(0,0,0,1) 50%, rgba
 }
 
 .project__metadata {
+    
     position: absolute;
     top: 0;
     left: 0;
@@ -538,26 +493,6 @@ background: linear-gradient(180deg, rgba(34,34,34,1) 0%, rgba(0,0,0,1) 50%, rgba
     border-radius: 10px;
 }
 
-.divider__work {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
-}
-
-.divider__work svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 90px;
-}
-
-.divider__work .shape-fill {
-    fill: #FFFFFF;
-}
 /* video */
 
 
@@ -676,7 +611,7 @@ background: linear-gradient(180deg, rgba(34,34,34,1) 0%, rgba(0,0,0,1) 50%, rgba
         color: var(--color-text);
         padding: 5rem 1rem;
         padding-top: 10rem ;
-        padding-bottom: 10rem;
+        padding-bottom: 3rem;
         text-align: center;
     }
 
@@ -697,7 +632,7 @@ background: linear-gradient(180deg, rgba(34,34,34,1) 0%, rgba(0,0,0,1) 50%, rgba
         max-width: 25rem;
     }
     .skills{
-        flex-direction: column;
+        margin: 0;
         align-items: center;
         grid-template-columns: 1fr;
     }
@@ -719,6 +654,7 @@ background: linear-gradient(180deg, rgba(34,34,34,1) 0%, rgba(0,0,0,1) 50%, rgba
         transition: all 250ms ease-out;
     }
     .project{
+        margin: 0;
         height: 150px;
         position: relative;
         border-radius: 10px;
