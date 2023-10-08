@@ -148,13 +148,35 @@ button:focus {
 }
 /* home */
 #home{
+    position: relative;
     background-color: var(--color-primary);
     color: var(--color-text);
     padding: 5rem 1rem;
     padding-top: 10rem ;
-    padding-bottom: 2rem;
+    padding-bottom: 5rem;
     text-align: center;
 }
+.home__divider {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.home__divider svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 89px;
+}
+
+.home__divider .shape-fill {
+    fill: #FFFFFF;
+}
+
 
 .home__avatar{
     width: 300px;
@@ -469,7 +491,7 @@ button:focus {
     transform: translateY(0px);
 
 }
-.project__metadata__title:after {
+.project__metadata__title::after {
     content:'';
     display: block;
     position: relative;
@@ -527,16 +549,36 @@ button:focus {
 
 /* Footer */
 #contact{
-   
+   position: relative;
     background-color: var(--color-primary);
     color:var(--color-text);
+   
+}
+.contact__divider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
 }
 
+.contact__divider svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 89px;
+}
+
+.contact__divider .shape-fill {
+    fill: #FFFFFF;
+}
 .contact__links{
     display: flex;
     justify-content: center;
+    
     gap: 1rem;
-    padding: 1rem;
+    padding: 2rem;
     font-size: 2rem;
 }
 
@@ -601,6 +643,16 @@ button:focus {
     .home__title{
         font-size: 2.5rem;
         margin-bottom: 0.5rem;
+    }
+
+    #home{
+        position: relative;
+        background-color: var(--color-primary);
+        color: var(--color-text);
+        padding: 5rem 1rem;
+        padding-top: 10rem ;
+        padding-bottom: 10rem;
+        text-align: center;
     }
 
     .about__video {
