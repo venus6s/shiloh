@@ -486,7 +486,6 @@ background: linear-gradient(180deg, rgba(34,34,34,1) 0%, rgba(0,0,0,1) 50%, rgba
 .project{
     position: relative;
     border-radius: 10px;
-   
     height: 15rem;
     overflow: hidden;
 }
@@ -559,18 +558,21 @@ background: linear-gradient(180deg, rgba(34,34,34,1) 0%, rgba(0,0,0,1) 50%, rgba
 }
 /* video */
 
-
+#video {
+    position: relative;
+    background-color: var(--color-white);
+    color: var(--color-primary);
+}
 .videos {
     display: grid;
-    grid-template-columns: repeat(2, 2fr);
-    margin: 5rem;
-    
-    gap:0.5rem;
-    transition: all 250ms ease-out;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 3rem;
+    margin-bottom: 10rem;
+    gap:1rem;
 }
 
 .video__youtube {
-    width: 400px;
+    width: 500px;
     height: 300px;
     border-radius:10px
     
@@ -719,22 +721,31 @@ background: linear-gradient(180deg, rgba(34,34,34,1) 0%, rgba(0,0,0,1) 50%, rgba
         transition: all 250ms ease-out;
     }
     .project{
-        height: 200px;
+        height: 150px;
         position: relative;
         border-radius: 10px;
          
     }
     .project__img { 
         width: 100%;
-        
+
     }
 
-
-    .videos{
+      .videos{
         display: grid;
         justify-content: center;
         grid-template-columns: repeat(1, 1fr);
+        margin: 3rem;
+        border: 10rem;
         gap:1rem;
+    }
+
+    .video__youtube {
+        position: relative;  
+        width: 100%
+        height: 150px;
+        border-radius:10px
+        
     }
 
 
