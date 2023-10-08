@@ -70,7 +70,7 @@ button:focus {
 
 .title{
     font-size: 2.5rem;
-    margin: 1rem 0;
+    margin: 1.5rem 0;
 }
 
 .description{
@@ -150,6 +150,8 @@ button:focus {
 #home{
     position: relative;
     background-color: var(--color-primary);
+    background: rgb(34,34,34);
+    background: linear-gradient(180deg, rgba(34,34,34,1) 0%, rgba(0,0,0,1) 50%, rgba(34,34,34,1) 100%);
     color: var(--color-text);
     padding: 5rem 1rem;
     padding-top: 10rem ;
@@ -163,6 +165,7 @@ button:focus {
     width: 100%;
     overflow: hidden;
     line-height: 0;
+    padding: 1px solid var(--color-white);
     transform: rotate(180deg);
 }
 
@@ -267,10 +270,12 @@ button:focus {
 
 /* skills */
 #skills {
+    position: relative;
     
     background-color: var(--color-primary-variant) ;
     color: var(--color-text);
 }
+
 .skills {
     display: grid;
     grid-template-columns: 10fr 10fr;
@@ -278,7 +283,26 @@ button:focus {
     border-radius: 10px;
     overflow: hidden;
 
-   
+}
+
+.skills__divider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.skills__divider svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 89px;
+}
+
+.skills__divider .shape-fill {
+    fill: #FFFFFF;
 }
 
 .skills__title {
@@ -549,36 +573,16 @@ button:focus {
 
 /* Footer */
 #contact{
-   position: relative;
     background-color: var(--color-primary);
     color:var(--color-text);
    
 }
-.contact__divider {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-}
 
-.contact__divider svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 89px;
-}
-
-.contact__divider .shape-fill {
-    fill: #FFFFFF;
-}
 .contact__links{
     display: flex;
     justify-content: center;
-    
     gap: 1rem;
-    padding: 2rem;
+    padding: 0rem;
     font-size: 2rem;
 }
 
